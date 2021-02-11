@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Alignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+        }
+
+        .item {
+            border: 2px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(113, 164, 214);
+        }
+
+        #fruit {
+            float: right;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #stationery {
+            /* float: left; */
+            clear: left;
+            width: 100%;
+        }
+        p,h1{
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3> Fruits </h3>
+            <p id="fruitpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nihil ducimus
+                possimus alias consequatur incidunt adipisci sapiente rem eligendi. Quas fugiat eos animi quaerat
+                consequuntur quos amet at aliquid nemo? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi officiis, minima itaque nemo necessitatibus at eius nam, id alias magni, quas odio eos corrupti aut magnam earum aliquam. Ratione, ipsa?
+            </p>
+        </div>
+        <div id="computer" class="item">
+            <h3> Computers </h3>
+            <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nihil
+                ducimus possimus alias consequatur incidunt adipisci sapiente rem eligendi. Quas fugiat eos animi
+                quaerat consequuntur quos amet at aliquid nemo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, doloribus! Porro quis minima hic, numquam id molestiae corporis tempore voluptates odit ex deleniti dolores optio exercitationem adipisci molestias accusantium cum!
+            </p>
+        </div>
+        <div id="stationery" class="item">
+            <h3> Stationery </h3>
+            <p id="stationerypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi nihil
+                ducimus possimus alias consequatur incidunt adipisci sapiente rem eligendi. Quas fugiat eos animi
+                quaerat consequuntur quos amet at aliquid nemo?
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

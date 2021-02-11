@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.blog{
+    padding: 9px 3px;
+    margin: 14px 0px;
+    text-align: center;
+    font-size: 39px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: rgb(8, 8, 15);
+}
+.image{
+    padding: 13px 12px;
+    margin: 13px 0px;
+    text-align: center;
+    display: block;
+}
+.write{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: bolder;
+    font-style: italic;
+    color: blue;
+}
+.basic{
+    border: 2px solid red;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px 5px;
+    padding: 7px 3px;
+    margin: -2px 580px;
+}
